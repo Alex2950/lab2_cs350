@@ -1,0 +1,4 @@
+I printed in kernel space.printf is used in proc.c in the exit system call
+this file is used to build the kernel shown in the Makefile where OBJS is used.
+because exit is a kernel-mode system call when printf is used inside of it that
+means printing is occurring in kernel space.
